@@ -12,3 +12,12 @@ p {
 color: #666;
 line-height: 1.6;
 }
+
+/* New Animations */
+.fade-in {
+animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
