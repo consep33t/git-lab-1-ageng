@@ -12,3 +12,11 @@ p {
 color: #666;
 line-height: 1.6;
 }
+
+/* Button Styles */
+button {
+transition: all 0.3s ease;
+}
+button:hover {
+transform: scale(1.05);
+}
