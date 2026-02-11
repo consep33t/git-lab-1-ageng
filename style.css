@@ -1,14 +1,19 @@
-body {
-font-family: Arial, sans-serif;
-margin: 20px;
-background-color: #f0f0f0;
+/* Dark Mode Styles */
+body.dark-mode {
+background-color: #1a1a1a;
+color: #ffffff;
 }
-
-h1 {
-color: #333;
+body.dark-mode h1 {
+color: #4CAF50;
 }
-
-p {
-color: #666;
-line-height: 1.6;
+.theme-toggle {
+position: fixed;
+top: 20px;
+right: 20px;
+padding: 10px 20px;
+cursor: pointer;
+background: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
 }
